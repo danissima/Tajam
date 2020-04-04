@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Tajam</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+       <div class="overlay">
+        <div class="container">
+           <div class="header_inner">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/header_logo.png" alt="logo">
+                    <p>tajam</p>
+                </div>
+                <nav class="navigation">
+                    <a href="#" class="nav_item">Home</a>
+                    <a href="#" class="nav_item">About</a>
+                    <a href="#" class="nav_item">Expertise</a>
+                    <a href="#" class="nav_item">Teams</a>
+                    <a href="#" class="nav_item">Works</a>
+                    <a href="#" class="nav_item">People say</a>
+                    <a href="#" class="nav_item">Contact</a>
+                </nav>
+            </div>
+            <div class="main">
+                <center>
+                <div class="main_text">
+                    <h1 class="main_title">We Are Awesome Creative Agency</h1>
+                    <p class="main_about">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                </div>
+                <button class="button">Learn more</button>
+                </center>
+            </div>
+            </div>
+           </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="about">
+            <div class="container">
+                <div class="our_story">
+                    <div class="story_logo">
+                        <img src="images/story_img.png" alt="our story">
+                    </div>
+                    <section class="story_text">
+                        <h2 class="section_title">Our story</h2>
+                        <p class="section_text">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                        </p>
+                        <p class="section_text">
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                        <button class="button">Learn more</button>
+                    </section>
+                </div>
+            </div>
+            <div class="story_video">
+                <div class="overlay">
+                   <center>
+                    <div class="play">
+                       <svg onclick="playVideo()" class="play_button" id="play_video" enable-background="new 0 200 499.999 499.999" height="100" viewBox="0 0 499.999 499.999" width="100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m171.875 372.237c-2.701 0-5.402-.702-7.812-2.09-4.837-2.792-7.812-7.95-7.812-13.535v-215.987c0-5.585 2.975-10.727 7.797-13.519 4.837-2.792 10.788-2.838 15.625-.015l187.5 107.94c4.837 2.777 7.828 7.95 7.828 13.535s-2.975 10.742-7.828 13.535l-187.5 108.047c-2.412 1.388-5.113 2.089-7.798 2.089zm15.625-204.589v161.926l140.564-81.009c-.001 0-140.564-80.917-140.564-80.917z"/>
+                        <path d="m250 499.999c-137.848 0-250-112.152-250-250s112.152-249.999 250-249.999 250 112.152 250 250-112.153 249.999-250 249.999zm0-468.749c-120.62 0-218.75 98.129-218.75 218.75s98.129 218.75 218.75 218.75 218.749-98.13 218.749-218.75-98.129-218.75-218.749-218.75z"/>
+                        </svg>
+                        <h2 class="play_story">Watch our story</h2>
+                    </div>
+                    </center>
+                </div>
+                <div class="popup" id="popup">
+                    <div class="popup_content">
+                        <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/KvUgaHTNit4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+        </div>
+        <div class="expertise">
+            <div class="container">
+                <div class="expertise_inner">
+                    <div class="block_title">
+                        <h2 class="section_title">Expertise</h2>
+                        <p class="section_subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    </div>
+                    <div class="expertise_content">
+                        <div class="expertise_item">
+                            <img src="images/monitor.png" alt="monitor">
+                            <h3 class="item_name">Web design & development</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise_item">
+                            <img src="images/brush.png" alt="brush">
+                            <h3 class="item_name">Branding identify</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise_item">
+                            <img src="images/phone.png" alt="phone" width="28px" height="50px">
+                            <h3 class="item_name">Mobile app</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise_item">
+                            <img src="images/cake.png" alt="cake">
+                            <h3 class="item_name">Search engine optimization</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise_item">
+                            <img src="images/gameboy.png" alt="gameboy">
+                            <h3 class="item_name">Game development</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                        <div class="expertise_item">
+                            <img src="images/heart.png" alt="heart">
+                            <h3 class="item_name">Made with love</h3>
+                            <p class="section_text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="overlay">
+                <div class="container">
+                    <div class="team_inner">
+                        <div class="block_title">
+                            <h2 class="section_title">Meet our amazing team</h2>
+                            <p class="section_subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                        </div>
+                        <div class="team_content">
+                            <div class="team_item">
+                                <div class="team_avatar"></div>
+                                <div class="team_info">
+                                    <p class="name">Semf Ucuk</p>
+                                    <p class="position">CEO & founder</p>
+                                </div>
+                            </div>
+                            <div class="team_item">
+                                <div class="team_avatar"></div>
+                                <div class="team_info">
+                                    <p class="name">Dik Adalin</p>
+                                    <p class="position">Engineering</p>
+                                </div>
+                            </div>
+                            <div class="team_item">
+                                <div class="team_avatar"></div>
+                                <div class="team_info">
+                                    <p class="name">Jeng Kol</p>
+                                    <p class="position">Designer</p>
+                                </div>
+                            </div>
+                            <div class="team_item">
+                                <div class="team_avatar"></div>
+                                <div class="team_info">
+                                    <p class="name">Pet Romak</p>
+                                    <p class="position">Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_bottom">
+                            <p class="action">Become part of our dream team, let's join us!</p>
+                            <button class="button">We are hiring</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="container">
+                <div class="works_inner">
+                    <h2 class="section_title">Our works</h2>
+                    <a href="#" class="section_text">See All Projects in dribbble ></a>
+                </div>
+            </div>
+            <div class="works_content">
+                <div class="works_item color1"></div>
+                <div class="works_item color2"></div>
+                <div class="works_item color3"></div>
+                <div class="works_item color4"></div>
+                <div class="works_item color1"></div>
+                <div class="works_item color3"></div>
+                <div class="works_item color3"></div>
+                <div class="works_item color1"></div>
+                <div class="works_item color4"></div>
+                <div class="works_item color3"></div>
+                <div class="works_item color2"></div>
+                <div class="works_item color1"></div>
+            </div>
+            <button class="button">Load more</button>
+        </div>
+        <div class="testimonials">
+            <div class="overlay">
+                <div class="container">
+                   <div class="testi_inner">
+                        <div class="testi_text">
+                            <h1 class="quotes">“</h1>
+                            <p class="main_about feedback"></p>
+                            <div class="team_info">
+                                <p class="name"></p>
+                                <p class="position"></p>
+                            </div>
+                        </div>
+                        <div class="testi_pics">
+                            <img src="images/ava1.png" alt="profile pic" class="pics_item">
+                            <img src="images/ava2.png" alt="profile pic" class="pics_item">
+                            <img src="images/ava3.png" alt="profile pic" class="pics_item pics_active">
+                            <img src="images/ava4.png" alt="profile pic" class="pics_item">
+                            <img src="images/ava5.png" alt="profile pic" class="pics_item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="container">
+                <div class="contacts_inner">
+                    <div class="block_title">
+                        <h2 class="section_title">Give us a good news</h2>
+                    </div>
+                    <div class="contacts_content">
+                        <input class="contacts_item" type="text" placeholder="Name">
+                        <input class="contacts_item" type="text" placeholder="Email">
+                        <input class="contacts_item" type="text" placeholder="Subject">
+                        <textarea class="contacts_item" type="text" placeholder="Your message"></textarea>
+                    </div>
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="overlay">
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_item">
+                        <div class="logo">
+                            <img src="images/header_logo.png" alt="logo">
+                            <p>tajam</p>
+                        </div>
+                        <p class="main_about">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                        <nav class="navigation">
+                            <a href="#" class="nav_item">Help</a>
+                            <a href="#" class="nav_item">Terms & condition</a>
+                            <a href="#" class="nav_item">Privacy</a>
+                        </nav>
+                    </div>
+                    <div class="footer_item">
+                        <p class="name">Our studio</p>
+                        <div class="address">
+                           <img src="images/jps_icon.png" alt="GPS">
+                            <p class="main_about">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+                        </div>
+                        <div class="number">
+                           <img src="images/oldphone_icon.png" alt="old phone">
+                            <p class="main_about">(+62) 21-2224 3333</p>
+                        </div>
+                    </div>
+                    <div class="footer_item">
+                        <p class="name">Stay in touch</p>
+                        <div class="footer_news">
+                            <input class="subscription" type="text" placeholder="Subscribe our newsletter" width="210px" height="45px">
+                            <img src="images/subscribe.png" alt="subscribe">
+                        </div>
+                        <div class="media">
+                            <img src="images/icon1.png" alt="facebook">
+                            <img src="images/icon2.png" alt="twitter">
+                            <img src="images/icon3.png" alt="basketball">
+                            <img src="images/icon4.png" alt="instagram">
+                            <img src="images/icon5.png" alt="google+">
+                            <img src="images/icon6.png" alt="youtube">
+                        </div>
+                        <p class="main_about copyright">Copyright © 2015 - Tajem Creative</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
